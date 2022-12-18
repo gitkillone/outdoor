@@ -1,6 +1,5 @@
 import bpy
 scene = bpy.context.scene
-
 scene.pov.radio_display_advanced = True
 scene.pov.radio_adc_bailout = 0.005
 scene.pov.radio_always_sample = False
